@@ -1,0 +1,13 @@
+nodejs.server
+
+Tickets
+-----------
+#1: create a new repo for storing project files(you)
+#2: create a libary function to add two numbers(john)
+#3: create barebone nodejs http server(you)
+#4: use the  add library function in http server to return the output of 2+3 (u )
+
+enhancements:
+------------
+#5: return the output of 3+5, instead of 2+3
+#6: Return "hi There' from http server instead of addition's result
