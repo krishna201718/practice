@@ -1,2 +1,3 @@
 this is child file can check it out
 this is not master
+hi master
