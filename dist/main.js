@@ -1,0 +1,1 @@
+(()=>{var r={992:r=>{r.exports=(r,e)=>r+e},605:r=>{"use strict";r.exports=require("http")}},e={};function t(n){var o=e[n];if(void 0!==o)return o.exports;var s=e[n]={exports:{}};return r[n](s,s.exports,t),s.exports}(()=>{const r=t(605),e=t(992);r.createServer((function(r,t){t.write(String(e(2,3))),t.end()})).listen(8e3)})()})();
