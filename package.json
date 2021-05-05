@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",  
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/krishna201718/practice/issues"
   },
@@ -27,6 +27,8 @@
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^8.3.2"
+  },
   "description": ""
 }
