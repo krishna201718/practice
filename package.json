@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "build": "webpack ./src/server.js --target node --mode production"
+    "build": "webpack ./src/server.js --target node --mode production",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "ISC",  
   "bugs": {
     "url": "https://github.com/krishna201718/practice/issues"
   },
