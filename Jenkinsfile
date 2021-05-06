@@ -3,23 +3,23 @@ pipeline {
     stages {
         stage('Install dependencies'){
                 steps{
-                    cmd 'npm install'
+                    bat 'npm install'
                 }
             }
         stage('Build'){
                 steps{
-                    cmd 'npm run lint'
-                    cmd 'npm run build'
+                    bat 'npm run lint'
+                    bat 'npm run build'
                 }
             }
         stage('Testing'){
                 steps{
-                    cmd 'npm run test'
+                    bat 'npm run test'
                 }
             }
         stage('Deploy'){
                 steps{
-                    cmd 'node ./dist/main.js'
+                    bat 'node ./dist/main.js'
                 }
             }
     }
