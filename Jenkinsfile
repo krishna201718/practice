@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Install dependencies'){
                 steps{
-                    cmd 'cd C:\Users\hello\Desktop\practice'
                     cmd 'npm install'
                 }
             }
